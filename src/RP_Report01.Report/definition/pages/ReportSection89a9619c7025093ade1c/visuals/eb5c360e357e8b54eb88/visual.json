@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
   "name": "eb5c360e357e8b54eb88",
   "position": {
-    "x": 106.30042918454936,
-    "y": 8.0343347639484985,
+    "x": 106.20435451275468,
+    "y": 8.3297532951180138,
     "z": 5000,
-    "height": 62.4206008583691,
-    "width": 585.27038626609442,
+    "height": 62.473149713385105,
+    "width": 679.91611271400791,
     "tabOrder": 5000
   },
   "visual": {
@@ -27,7 +27,7 @@
                     }
                   },
                   {
-                    "value": "Sales Analysis",
+                    "value": "Sales Analysis - Local Update",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontFamily": "Segoe (Bold)",
