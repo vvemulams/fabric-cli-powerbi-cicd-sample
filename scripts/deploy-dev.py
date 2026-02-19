@@ -27,9 +27,12 @@ connection_name = "SalesSense - DEV"
 connection_source_url = "https://raw.githubusercontent.com/pbi-tools/sales-sample/refs/heads/data/RAW-Sales.csv"
 
 # Authenticate
+run_fab_command(f"auth status")
 
 if spn_auth:
     fab_authenticate_spn()
+
+run_fab_command(f"auth status")
 
 # Create Fabric connection to use in data pipeline
 
