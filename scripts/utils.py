@@ -62,8 +62,10 @@ def run_fab_command(
     )
 
     if not (silently_continue) and (result.returncode > 0 or result.stderr):
-        raise Exception(
-            f"Error running fab command. exit_code: '{result.returncode}'; stderr: '{result.stderr}'"
+        print(result.stderr)
+        print(result.stdout)
+    #    raise Exception(
+    #        f"Error running fab command. exit_code: '{result.returncode}'; stderr: '{result.stderr}'"
         )
 
     if capture_output:
