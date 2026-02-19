@@ -57,6 +57,7 @@ def run_fab_command(
     Exception: If there is an error running the Fabric command.
     """
 
+    print(f"Executing command: '{command}'")
     result = subprocess.run(
         ["fab", "-c", command], capture_output=capture_output, text=True
     )
