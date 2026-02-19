@@ -66,7 +66,7 @@ def run_fab_command(
         print(result.stdout)
     #    raise Exception(
     #        f"Error running fab command. exit_code: '{result.returncode}'; stderr: '{result.stderr}'"
-        )
+    #    )
 
     if capture_output:
 
