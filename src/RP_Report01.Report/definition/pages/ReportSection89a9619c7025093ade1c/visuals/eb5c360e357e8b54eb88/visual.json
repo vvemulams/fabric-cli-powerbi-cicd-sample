@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
   "name": "eb5c360e357e8b54eb88",
   "position": {
     "x": 106.30042918454936,
@@ -27,7 +27,7 @@
                     }
                   },
                   {
-                    "value": "Sales Analysis",
+                    "value": "Sales Analysis - UPDATE",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontFamily": "Segoe (Bold)",
